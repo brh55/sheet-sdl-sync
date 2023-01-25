@@ -1,0 +1,9 @@
+{
+    "scriptId":"1lYCo95DBgZGxKzmH-0lQjfnOTtyeo263N6tcuCmkHJ8fW81rhvWXvsiO",
+    "rootDir":"/Users/brandon/Projects/sheets-sdl-sync/dist",
+    "fileExtension": "js",
+    "filePushOrder": [
+        "/Users/brandon/Projects/sheets-sdl-sync/dist/Modules.js",
+        "/Users/brandon/Projects/sheets-sdl-sync/dist/Config.js"
+    ]
+}

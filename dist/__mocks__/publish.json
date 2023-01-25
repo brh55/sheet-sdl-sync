@@ -1,0 +1,26 @@
+{
+    "eventType": "SCHEMA_PUBLISH",
+    "eventID": "6eb3a4f5-id-asda-asfgasd-12311aaf",
+    "changes": [
+      {
+        "description": "type `Author`: field `booksCount` description changed"
+      },
+      {
+        "description": "type `Rating`: created"
+      },
+      {
+        "description": "type `Rating`: field `name` added"
+      },
+      {
+        "description": "type `Rating`: field `averageRating` added"
+      },
+      {
+        "description": "type `Rating`: field `ratingCount` added"
+      }
+    ],
+    "graphID": "brandon-demo-graph",
+    "schemaURL": "https://graphql.api.apollographql.com/schema-link?token=token-here",
+    "schemaURLExpiresAt": "2022-11-17T16:13:29.963Z",
+    "timestamp": "2022-11-14T16:13:20.429Z",
+    "variantID": "brandon-demo-graph@current"
+  }

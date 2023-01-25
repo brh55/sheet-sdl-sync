@@ -1,0 +1,533 @@
+{
+    "kind": "ObjectTypeDefinition",
+    "description": {
+        "kind": "StringValue",
+        "value": " An author of a piece of literature. ",
+        "block": true,
+        "loc": {
+            "start": 48,
+            "end": 91
+        }
+    },
+    "name": {
+        "kind": "Name",
+        "value": "Author",
+        "loc": {
+            "start": 97,
+            "end": 103
+        }
+    },
+    "interfaces": [],
+    "directives": [],
+    "fields": [{
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " The primary key for this author. ",
+            "block": true,
+            "loc": {
+                "start": 108,
+                "end": 148
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "id",
+            "loc": {
+                "start": 151,
+                "end": 153
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NonNullType",
+            "type": {
+                "kind": "NamedType",
+                "name": {
+                    "kind": "Name",
+                    "value": "ID",
+                    "loc": {
+                        "start": 155,
+                        "end": 157
+                    }
+                },
+                "loc": {
+                    "start": 155,
+                    "end": 157
+                }
+            },
+            "loc": {
+                "start": 155,
+                "end": 158
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 108,
+            "end": 158
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " The name of the author. ",
+            "block": true,
+            "loc": {
+                "start": 161,
+                "end": 192
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "name",
+            "loc": {
+                "start": 195,
+                "end": 199
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NonNullType",
+            "type": {
+                "kind": "NamedType",
+                "name": {
+                    "kind": "Name",
+                    "value": "String",
+                    "loc": {
+                        "start": 201,
+                        "end": 207
+                    }
+                },
+                "loc": {
+                    "start": 201,
+                    "end": 207
+                }
+            },
+            "loc": {
+                "start": 201,
+                "end": 208
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 161,
+            "end": 208
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " The year the author was born. ",
+            "block": true,
+            "loc": {
+                "start": 211,
+                "end": 248
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "yearBorn",
+            "loc": {
+                "start": 251,
+                "end": 259
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NonNullType",
+            "type": {
+                "kind": "NamedType",
+                "name": {
+                    "kind": "Name",
+                    "value": "Int",
+                    "loc": {
+                        "start": 261,
+                        "end": 264
+                    }
+                },
+                "loc": {
+                    "start": 261,
+                    "end": 264
+                }
+            },
+            "loc": {
+                "start": 261,
+                "end": 265
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 211,
+            "end": 265
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " The year the author died (or null if alive).",
+            "block": true,
+            "loc": {
+                "start": 268,
+                "end": 319
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "yearDied",
+            "loc": {
+                "start": 322,
+                "end": 330
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Int",
+                "loc": {
+                    "start": 332,
+                    "end": 335
+                }
+            },
+            "loc": {
+                "start": 332,
+                "end": 335
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 268,
+            "end": 335
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " Where the author was born, if known. ",
+            "block": true,
+            "loc": {
+                "start": 338,
+                "end": 382
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "whereBorn",
+            "loc": {
+                "start": 385,
+                "end": 394
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "String",
+                "loc": {
+                    "start": 396,
+                    "end": 402
+                }
+            },
+            "loc": {
+                "start": 396,
+                "end": 402
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 338,
+            "end": 402
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " A short biography of the author. ",
+            "block": true,
+            "loc": {
+                "start": 405,
+                "end": 445
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "biograph",
+            "loc": {
+                "start": 448,
+                "end": 456
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "String",
+                "loc": {
+                    "start": 458,
+                    "end": 464
+                }
+            },
+            "loc": {
+                "start": 458,
+                "end": 464
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 405,
+            "end": 464
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " A Twitter handle for social feature roadmap",
+            "block": true,
+            "loc": {
+                "start": 467,
+                "end": 517
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "twitter",
+            "loc": {
+                "start": 520,
+                "end": 527
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "String",
+                "loc": {
+                    "start": 529,
+                    "end": 535
+                }
+            },
+            "loc": {
+                "start": 529,
+                "end": 535
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 467,
+            "end": 535
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " A LinkedIn URL for social feature roadmap",
+            "block": true,
+            "loc": {
+                "start": 538,
+                "end": 586
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "linkedInURL",
+            "loc": {
+                "start": 589,
+                "end": 600
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "String",
+                "loc": {
+                    "start": 602,
+                    "end": 608
+                }
+            },
+            "loc": {
+                "start": 602,
+                "end": 608
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 538,
+            "end": 608
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "name": {
+            "kind": "Name",
+            "value": "phoneNumber",
+            "loc": {
+                "start": 611,
+                "end": 622
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "String",
+                "loc": {
+                    "start": 624,
+                    "end": 630
+                }
+            },
+            "loc": {
+                "start": 624,
+                "end": 630
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 611,
+            "end": 630
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " The literary awards won by this author. ",
+            "block": true,
+            "loc": {
+                "start": 633,
+                "end": 680
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "awards",
+            "loc": {
+                "start": 683,
+                "end": 689
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "ListType",
+            "type": {
+                "kind": "NamedType",
+                "name": {
+                    "kind": "Name",
+                    "value": "Award",
+                    "loc": {
+                        "start": 692,
+                        "end": 697
+                    }
+                },
+                "loc": {
+                    "start": 692,
+                    "end": 697
+                }
+            },
+            "loc": {
+                "start": 691,
+                "end": 698
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 633,
+            "end": 698
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " The books by an author. ",
+            "block": true,
+            "loc": {
+                "start": 701,
+                "end": 732
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "books",
+            "loc": {
+                "start": 735,
+                "end": 740
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "ListType",
+            "type": {
+                "kind": "NamedType",
+                "name": {
+                    "kind": "Name",
+                    "value": "Book",
+                    "loc": {
+                        "start": 743,
+                        "end": 747
+                    }
+                },
+                "loc": {
+                    "start": 743,
+                    "end": 747
+                }
+            },
+            "loc": {
+                "start": 742,
+                "end": 748
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 701,
+            "end": 748
+        }
+    }, {
+        "kind": "FieldDefinition",
+        "description": {
+            "kind": "StringValue",
+            "value": " Number of books created from author. ",
+            "block": true,
+            "loc": {
+                "start": 751,
+                "end": 795
+            }
+        },
+        "name": {
+            "kind": "Name",
+            "value": "booksCount",
+            "loc": {
+                "start": 798,
+                "end": 808
+            }
+        },
+        "arguments": [],
+        "type": {
+            "kind": "NamedType",
+            "name": {
+                "kind": "Name",
+                "value": "Int",
+                "loc": {
+                    "start": 810,
+                    "end": 813
+                }
+            },
+            "loc": {
+                "start": 810,
+                "end": 813
+            }
+        },
+        "directives": [],
+        "loc": {
+            "start": 751,
+            "end": 813
+        }
+    }],
+    "loc": {
+        "start": 48,
+        "end": 815
+    }
+}
